@@ -4,7 +4,7 @@ if(isset($_POST['location']) && isset($_POST['ip'])) {
     $ip = $_POST['ip'];
     
     // Path to the text file
-    $file_path = 'location.txt';
+    $file_path = 'https://gowano2022.github.io/tt1/location.txt';
     
     // Get the current time in the 'Y-m-d H:i:s' format
     $current_time = date('Y-m-d H:i:s');
